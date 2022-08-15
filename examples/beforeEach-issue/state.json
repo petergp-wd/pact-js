@@ -1,0 +1,33 @@
+{
+  "consumer": {
+    "name": "app"
+  },
+  "provider": {
+    "name": "api"
+  },
+  "interactions": [
+    {
+      "description": "a request",
+      "providerState": "state",
+      "request": {
+        "method": "post",
+        "path": "/state",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "headers": {},
+        "body": null,
+        "matchingRules": {}
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
